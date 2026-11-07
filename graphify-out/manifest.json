@@ -1,0 +1,26 @@
+{
+  "background/background.js": {
+    "mtime": 1791618528.0,
+    "seen": 1794020315.751564,
+    "ast_hash": "e5850417dd1d1182f2d5ef1c9402fe90",
+    "semantic_hash": "e5850417dd1d1182f2d5ef1c9402fe90"
+  },
+  "manifest.json": {
+    "mtime": 1793474094.0,
+    "seen": 1794020315.7515857,
+    "ast_hash": "7ac10d4f75d7bc257971342fb60c846a",
+    "semantic_hash": "7ac10d4f75d7bc257971342fb60c846a"
+  },
+  "popup/editor.js": {
+    "mtime": 1793474134.0,
+    "seen": 1794020315.7515967,
+    "ast_hash": "2cf1883158ef6cc7d292e677b09a1323",
+    "semantic_hash": "2cf1883158ef6cc7d292e677b09a1323"
+  },
+  "popup/popup.js": {
+    "mtime": 1794017149.651353,
+    "seen": 1794020315.7516036,
+    "ast_hash": "c09c7f8c52c1b5eca661c3b848141361",
+    "semantic_hash": "c09c7f8c52c1b5eca661c3b848141361"
+  }
+}

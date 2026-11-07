@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Quick Notes",
+  "version": "1.1.0",
+  "description": "Prise de notes élégante inspirée de Google Docs et OneNote, avec éditeur riche, tags, recherche, dark mode, snap de page web et bien plus.",
+  "author": "Quick Notes",
+  "icons": {
+    "48": "assets/icon-48.png",
+    "96": "assets/icon-96.png",
+    "128": "assets/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "assets/icon-48.png",
+      "96": "assets/icon-96.png"
+    },
+    "default_title": "Quick Notes"
+  },
+  "sidebar_action": {
+    "default_title": "Quick Notes",
+    "default_panel": "popup/sidebar.html",
+    "default_icon": {
+      "48": "assets/icon-48.png",
+      "96": "assets/icon-96.png"
+    }
+  },
+  "background": {
+    "scripts": ["background/background.js"]
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "contextMenus",
+    "activeTab"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "quick-notes@local.extension",
+      "strict_min_version": "60.0"
+    }
+  }
+}
